@@ -15,6 +15,7 @@ const navItems: NavItem[] = [
     to: "/admission",
     label: "Students",
     children: [
+      { to: "/admission", label: "Admission" },
       { to: "/admission", label: "Nursing" },
       { to: "/admission", label: "Midwifery" },
     ],

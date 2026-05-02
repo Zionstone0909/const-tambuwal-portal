@@ -37,10 +37,10 @@ export const Route = createFileRoute("/")({
 });
 
 const quickServices = [
-  { icon: GraduationCap, title: "Student Login", desc: "Access courses, results & registration.", to: "/portal" },
-  { icon: UserCog, title: "Staff Portal", desc: "Faculty & administrative tools.", to: "/portal" },
-  { icon: FileText, title: "Applicants", desc: "Admissions & screening status.", to: "/portal" },
-  { icon: CreditCard, title: "Fee Payment", desc: "Pay tuition & charges securely.", to: "/portal" },
+  { icon: GraduationCap, title: "Student Login", desc: "Access courses, results & registration.", to: "/admission" },
+  { icon: UserCog, title: "Staff Portal", desc: "Faculty & administrative tools.", to: "/staff" },
+  { icon: FileText, title: "Applicants", desc: "Admissions & screening status.", to: "/admission" },
+  { icon: CreditCard, title: "Fee Payment", desc: "Pay tuition & charges securely.", to: "/admission" },
 ];
 
 const stats = [
